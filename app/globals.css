@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.login-box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+}
+
+.button {
+  margin-top: 8px;
+  min-width: 200px;
+  min-height: 32px;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+#google-btn {
+  background-color: rgb(220, 74, 61);
+}
+
+#facebook-btn {
+  background-color: rgb(60, 90, 154);
+}
+
+#twitter-btn {
+  background-color: rgb(85, 172, 238);
+}
+
+#github-btn {
+  background-color: rgb(125, 125, 125);
+}
+
+#logout-btn {
+  background-color: rgb(229, 86, 86);
+}

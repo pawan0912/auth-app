@@ -2,7 +2,18 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, create a .env.local file in the root of this project with the following properties.
+
+```
+NEXT_PUBLIC_FIREBASE_PUBLIC_API_KEY=*
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=*
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=*
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=*
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=*
+NEXT_PUBLIC_FIREBASE_APP_ID=*
+```
+
+Second, run the development server:
 
 ```bash
 npm run dev
